@@ -8,6 +8,8 @@ from unittest.mock import patch
 from unittest import TestCase
 import re
 import random
+
+import hangman as student
 #pulled from http://stackoverflow.com/questions/20567497/overwrite-built-in-function
 outputstr=""
 class MyStream(object):
