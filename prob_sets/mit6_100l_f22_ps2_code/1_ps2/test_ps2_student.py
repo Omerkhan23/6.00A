@@ -352,9 +352,9 @@ Your total score for this game is: 55
                     self.assertTrue("9 guesses" in lines[6])
                     self.assertTrue("wildc"+HIDDEN*2+"d" in lines[6])
                     self.assertTrue("9 guesses" in lines[7])
-                    self.assertTrue("revealed" in lines[7]) # lost 2 guesses
+                    self.assertTrue("revealed" in lines[7]) # lost 3 guesses
                     self.assertTrue("6 guesses" in lines[8])
-                    self.assertTrue("revealed" in lines[8]) # lost 2 guesses
+                    self.assertTrue("revealed" in lines[8]) # lost 3 guesses
                     self.assertTrue("score" in lines[9])
                     self.assertTrue("55" in lines[9])
                 else:
